@@ -1,0 +1,46 @@
+2020-11-09 10:07:03,056 [main] INFO  c.m.r.RctExperimentApplication 55 - Starting RctExperimentApplication on budiMacBook-Pro.local with PID 2562 (/Users/budi/Downloads/monetware/rct-experiment-api/target/classes started by budi in /Users/budi/Downloads/monetware/rct-experiment-api)
+2020-11-09 10:07:03,059 [main] INFO  c.m.r.RctExperimentApplication 655 - The following profiles are active: dev
+2020-11-09 10:07:04,567 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'rctSampleMapper' and 'com.monetware.rctexperiment.business.dao.RctSampleMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,567 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'rctTaskMapper' and 'com.monetware.rctexperiment.business.dao.RctTaskMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,567 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'rctUserTaskMapper' and 'com.monetware.rctexperiment.business.dao.RctUserTaskMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,567 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'rctUserTaskSampleMapper' and 'com.monetware.rctexperiment.business.dao.RctUserTaskSampleMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,567 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.rctexperiment]' package. Please check your configuration.
+2020-11-09 10:07:04,580 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'rctSampleMapper' and 'com.monetware.rctexperiment.business.dao.RctSampleMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,580 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'rctTaskMapper' and 'com.monetware.rctexperiment.business.dao.RctTaskMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,580 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'rctUserTaskMapper' and 'com.monetware.rctexperiment.business.dao.RctUserTaskMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,581 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'rctUserTaskSampleMapper' and 'com.monetware.rctexperiment.business.dao.RctUserTaskSampleMapper' mapperInterface. Bean already defined with the same name!
+2020-11-09 10:07:04,581 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.rctexperiment]' package. Please check your configuration.
+2020-11-09 10:07:04,635 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-09 10:07:04,638 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-09 10:07:04,706 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2020-11-09 10:07:05,057 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-09 10:07:05,187 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6dd1c3ed' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-09 10:07:05,194 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-09 10:07:05,598 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8076 (http)
+2020-11-09 10:07:05,720 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8076"]
+2020-11-09 10:07:05,722 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-11-09 10:07:05,723 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-09 10:07:05,928 [main] INFO  o.a.c.c.C.[.[localhost].[/rctapi] 173 - Initializing Spring embedded WebApplicationContext
+2020-11-09 10:07:05,929 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2801 ms
+2020-11-09 10:07:06,160 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-11-09 10:07:06,387 [main] INFO  c.alibaba.druid.pool.DruidDataSource 930 - {dataSource-1} inited
+2020-11-09 10:07:07,926 [main] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter 294 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-11-09 10:07:07,947 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-09 10:07:08,036 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-09 10:07:08,207 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-11-09 10:07:08,208 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-11-09 10:07:08,208 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-11-09 10:07:08,209 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-11-09 10:07:08,485 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration 86 - 
+
+Using generated security password: 501f052f-d7c0-4de1-98db-3543973b0681
+
+2020-11-09 10:07:08,693 [main] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16cf7fd0, org.springframework.security.web.context.SecurityContextPersistenceFilter@284d4885, org.springframework.security.web.header.HeaderWriterFilter@1d55dd21, org.springframework.web.filter.CorsFilter@7bc2bb58, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@24a3d414, com.monetware.rctexperiment.system.filter.TokenFilter@7e2c6fd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@660296d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7540160e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ff6804a, org.springframework.security.web.session.SessionManagementFilter@606b53a3, org.springframework.security.web.access.ExceptionTranslationFilter@55e91e61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f9a7684]
+2020-11-09 10:07:08,740 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8076"]
+2020-11-09 10:07:08,771 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8076 (http) with context path '/rctapi'
+2020-11-09 10:07:08,772 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-11-09 10:07:08,790 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-11-09 10:07:08,816 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-11-09 10:07:09,101 [main] INFO  c.m.r.RctExperimentApplication 61 - Started RctExperimentApplication in 6.735 seconds (JVM running for 7.347)
+2020-11-09 10:08:40,389 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-09 10:08:40,420 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1825 - {dataSource-1} closed
